@@ -1,5 +1,4 @@
-<p>
-  parent works!
-</p>
-
-<app-child></app-child>
+<p>Message from Child</p>
+<h2>{{message}}</h2>
+<br>
+<app-child [childMessage]="parentMessage" (OnChange)="messageReceiver($event)"></app-child>
