@@ -1,0 +1,9 @@
+div{
+  height: auto;
+  width: 500px;
+  border: 10px solid darkblue;
+  background-image: linear-gradient(to bottom right, black ,darkblue ,black);
+  text-align: center;
+  color: aliceblue;
+  margin: 30px;
+}

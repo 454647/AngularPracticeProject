@@ -1,0 +1,41 @@
+table {
+  border: 5px solid snow;
+  width: auto;
+}
+
+.custom{
+  border: 3px solid black;
+  margin: 5px;
+  height: 300px;
+  width: 300px;
+  box-shadow: 10px 10px 10px #111111;
+}
+
+div{
+  display: inline-table;
+}
+
+.a {
+}
+
+.b {
+  position: inherit;
+  left: 10px;
+  top: 10px;
+
+}
+
+.c {
+}
+
+
+table td {
+  padding: 15px;
+  border: 2px solid grey;
+}
+
+button {
+  background-color: cornsilk;
+  width: 100px;
+  height: 50px;
+}

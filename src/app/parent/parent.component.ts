@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-parent',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
 
-  constructor() { }
+  public data = [
+    {'id': 1, 'name': 'xyz'},
+    {'id': 2, 'name': 'qwe'},
+    {'id': 3, 'name': 'etey'},
+    {'id': 4, 'name': 'fghj'},
+    {'id': 5, 'name': 'ppiqowe'}
+  ];
+
+  constructor(private router: Router) {
+  }
 
   ngOnInit() {
+  }
+
+  editData(data) {
+    this.router.navigate(['/edit', data.id, data.name]);
   }
 
 }

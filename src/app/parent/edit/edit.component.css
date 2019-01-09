@@ -1,0 +1,23 @@
+div {
+  height: auto;
+  width: 500px;
+  border: 10px solid #90b887;
+  background-image: linear-gradient(to bottom, #90b887, black);
+  text-align: center;
+  color: aliceblue;
+  margin: 30px;
+  /*transform:translate(top 50px) ;*/
+  box-shadow: 0 10px 20px #333333;
+}
+
+h3 {
+  padding: 20px;
+}
+
+a {
+  color: cornsilk;
+}
+
+p{
+  margin: 20px;
+}

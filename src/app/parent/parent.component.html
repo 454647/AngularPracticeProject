@@ -1,5 +1,25 @@
-<p>
-  parent works!
-</p>
+<h3>Parent Component</h3>
+<div>
+<table>
+  <th>
+    <tr>
+      <td>ID</td>
+      <td>NAME</td>
+      <td></td>
+    </tr>
+    <tr *ngFor="let d of data">
+      <td>{{d.id}}</td>
+      <td>{{d.name}}</td>
+      <td><button (click)="editData(d)">Edit</button></td>
+    </tr>
+  </th>
+</table>
+</div>
 
-<app-child></app-child>
+<div>
+<router-outlet></router-outlet>
+</div>
+<hr>
+<div class="custom a"></div>
+<div class="custom b"></div>
+<div class="custom c"></div>
